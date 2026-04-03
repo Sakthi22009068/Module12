@@ -31,8 +31,49 @@ To write a Python program that:
 ---
 
 ## Program
-Add Code Here
+
+queue = []
+
+queue.append('a')
+queue.append('b')
+queue.append('c')
+
+
+print("Queue after elements are inserted:")
+
+print(queue)
+
+
+removed = queue.pop(0)
+
+print("\nDeleting the first element inserted:")
+
+print(removed)
+
+print("\nQueue after the first element is deleted:")
+
+print(queue)
 
 ## Output
+Queue after elements are inserted:
+
+['a', 'b', 'c']
+
+Deleting the first element inserted:
+
+a
+
+Queue after the first element is deleted:
+
+['b', 'c']
 
 ## Result
+The program successfully:
+
+Implements a Queue (FIFO) using a list
+
+Inserts elements using append()
+
+Deletes the first element using pop(0)
+
+Displays the queue before and after deletion
